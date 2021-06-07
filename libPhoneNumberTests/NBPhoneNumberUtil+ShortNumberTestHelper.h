@@ -1,5 +1,5 @@
 //
-//  NBPhoneNumberUtil+ShortNumberTest.h
+//  NBPhoneNumberUtil+ShortNumberTestHelper.h
 //  libPhoneNumber
 //
 //  Created by Paween Itthipalkul on 12/1/17.
@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  Includes methods used only for testing NBPhoneNumberUtil+ShortNumber.
  */
-@interface NBPhoneNumberUtil(ShortNumberTest)
+@interface NBPhoneNumberUtil(ShortNumberTestHelper)
 
 - (NSString *)exampleShortNumberForCost:(NBEShortNumberCost)cost regionCode:(NSString *)regionCode;
 - (NSString *)exampleShortNumberWithRegionCode:(NSString *)regionCode;
